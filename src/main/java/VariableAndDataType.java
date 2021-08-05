@@ -1,18 +1,18 @@
 public class VariableAndDataType {
     public static void main(String[] args){
         System.out.println("ĐÂY LÀ BÀI TẬP CỦA HỮU TRỌNG");
+        System.out.println("Bài 4:");
         int BirthYear = 1997;
         int NowYear =  2021;
         int Age = (NowYear - BirthYear);
-        System.out.println("Bài 4:");
         System.out.println("Năm sinh: " + BirthYear);
         System.out.println("Năm hiện tại: " + NowYear);
         System.out.println("Hiện tại tôi: " + Age + " tuổi");
         System.out.println("----");
 
+        System.out.println("Bài 5:");
         int A = 10;
         int B = 5;
-        System.out.println("Bài 5:");
         System.out.println("Với A bằng = " + A);
         System.out.println("Với B bằng = " + B);
         System.out.println("Tổng A và B là: " + (A+B));
