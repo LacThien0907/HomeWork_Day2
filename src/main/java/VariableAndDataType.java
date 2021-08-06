@@ -1,24 +1,26 @@
+
+
 public class VariableAndDataType {
     public static void main(String[] args){
         System.out.println("ĐÂY LÀ BÀI TẬP CỦA HỮU TRỌNG");
+        System.out.println("Bài 4:");
         int BirthYear = 1997;
         int NowYear =  2021;
         int Age = (NowYear - BirthYear);
-        System.out.println("Bài 4:");
         System.out.println("Năm sinh: " + BirthYear);
         System.out.println("Năm hiện tại: " + NowYear);
         System.out.println("Hiện tại tôi: " + Age + " tuổi");
         System.out.println("----");
 
+        System.out.println("Bài 5:");
         int A = 10;
         int B = 5;
-        System.out.println("Bài 5:");
         System.out.println("Với A bằng = " + A);
         System.out.println("Với B bằng = " + B);
         System.out.println("Tổng A và B là: " + (A+B));
         System.out.println("Hiệu A và B là: " + (A-B));
         System.out.println("Tích A và B là: " + (A*B));
-        System.out.println("Thương A và B là: " + (A/B));
+        System.out.println("Thương A và B là: " + (A/B)); // double div = (double)A/B; quy ước kiểu dữ liệu ra
         System.out.println("----");
 
         System.out.println("Bài 6:");
@@ -35,7 +37,7 @@ public class VariableAndDataType {
         System.out.println("Bài 7:");
         int Mat = 10;
         Double Phy = 9.5;
-        Double Che = 9.1;
+        Double Che = 9.1;   //Gán hệ số final int X = 10;
         Double Average = (Mat+Phy+Che)/3;
         System.out.println("Toán: " + Mat );
         System.out.println("Lý: " + Phy );
@@ -68,7 +70,12 @@ public class VariableAndDataType {
         System.out.println("Số thứ hai: " + A2);
         System.out.println("Min: " + Math.min(A1,A2));
         System.out.println("Max: " + Math.max(A1,A2));
-
+        /*
+        + Thêm tính năng
+        - Chỉnh sửa quan trọng
+        * Fix bug
+!       Nghiêm trọng, quan trọng
+        */
 
 
 
@@ -83,3 +90,4 @@ public class VariableAndDataType {
     }
 
 }
+
